@@ -19,5 +19,7 @@ public class Circle implements GeometricObject {
         return s;
         
     }
+
+// Just for testing
     
 }
