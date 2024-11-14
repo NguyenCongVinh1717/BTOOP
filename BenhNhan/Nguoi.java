@@ -2,9 +2,9 @@
 package Chuong3.BenhNhan;
 
 public class Nguoi {
-    private String ten;
-    private int tuoi;
-    private char gioiTinh;
+    protected String ten;
+    protected int tuoi;
+    protected char gioiTinh;
 
     public Nguoi() {
     }
