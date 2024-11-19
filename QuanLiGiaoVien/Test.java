@@ -16,17 +16,6 @@ public class Test {
             a[i].inThongTin();
         }
     }
-
-    public boolean kiemTra(GVCoHuu a[], String name) {
-        boolean check = false;
-        for (int i = 0; i < a.length; i++) {
-            if (a[i].hoTen.equals(name)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     public void sapXepMang(GVCoHuu a[]) {
         for (int i = 0; i < a.length-1; i++) {
             for (int j = i + 1; j < a.length; j++) {
